@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:markMeDown}",
+            "name": "Debug markMeDown",
+            "target": "markMeDown",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug markMeDown"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:markMeDown}",
+            "name": "Release markMeDown",
+            "target": "markMeDown",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release markMeDown"
+        }
+    ]
+}
